@@ -1,0 +1,206 @@
+[2023-01-06T10:45:51.880] [ERROR] default - NewError {
+  codigo: 500,
+  descripcion: 'Error al listarTodo()',
+  detalle: NewError {
+    codigo: 500,
+    descripcion: 'Error al conectarse a MongoDB',
+    detalle: MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+        at Connection.openUri (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\connection.js:695:11)
+        at C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\index.js:409:10
+        at C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
+        at new Promise (<anonymous>)
+        at promiseOrCallback (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
+        at Mongoose._promiseOrCallback (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\index.js:1262:10)
+        at Mongoose.connect (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\index.js:408:20)
+        at MongoDBClient.connect (file:///C:/Users/Sx_Ja/OneDrive/Escritorio/genloyal/server/src/classes/ClientDB.class.js:16:31)
+        at UsuarioDaoMongoDb.listarTodo (file:///C:/Users/Sx_Ja/OneDrive/Escritorio/genloyal/server/src/models/contenedor/contenedorMongo.js:32:33)
+        at home (file:///C:/Users/Sx_Ja/OneDrive/Escritorio/genloyal/server/src/controllers/user.controller.js:11:39)
+  }
+}
+[2023-01-06T10:46:51.469] [ERROR] default - NewError {
+  codigo: 500,
+  descripcion: 'Error al listarTodo()',
+  detalle: NewError {
+    codigo: 500,
+    descripcion: 'Error al conectarse a MongoDB',
+    detalle: MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+        at Connection.openUri (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\connection.js:695:11)
+        at C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\index.js:409:10
+        at C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
+        at new Promise (<anonymous>)
+        at promiseOrCallback (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
+        at Mongoose._promiseOrCallback (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\index.js:1262:10)
+        at Mongoose.connect (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\index.js:408:20)
+        at MongoDBClient.connect (file:///C:/Users/Sx_Ja/OneDrive/Escritorio/genloyal/server/src/classes/ClientDB.class.js:16:31)
+        at UsuarioDaoMongoDb.listarTodo (file:///C:/Users/Sx_Ja/OneDrive/Escritorio/genloyal/server/src/models/contenedor/contenedorMongo.js:32:33)
+        at home (file:///C:/Users/Sx_Ja/OneDrive/Escritorio/genloyal/server/src/controllers/user.controller.js:11:39)
+  }
+}
+[2023-01-06T10:51:32.639] [ERROR] default - NewError {
+  codigo: 500,
+  descripcion: 'Error al listarTodo()',
+  detalle: NewError {
+    codigo: 500,
+    descripcion: 'Error al conectarse a MongoDB',
+    detalle: MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+        at Connection.openUri (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\connection.js:695:11)
+        at C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\index.js:409:10
+        at C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
+        at new Promise (<anonymous>)
+        at promiseOrCallback (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
+        at Mongoose._promiseOrCallback (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\index.js:1262:10)
+        at Mongoose.connect (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\index.js:408:20)
+        at MongoDBClient.connect (file:///C:/Users/Sx_Ja/OneDrive/Escritorio/genloyal/server/src/classes/ClientDB.class.js:16:31)
+        at UsuarioDaoMongoDb.listarTodo (file:///C:/Users/Sx_Ja/OneDrive/Escritorio/genloyal/server/src/models/contenedor/contenedorMongo.js:33:33)
+        at home (file:///C:/Users/Sx_Ja/OneDrive/Escritorio/genloyal/server/src/controllers/user.controller.js:11:39)
+  }
+}
+[2023-01-06T10:52:57.546] [ERROR] default - NewError {
+  codigo: 500,
+  descripcion: 'Error al listarTodo()',
+  detalle: NewError {
+    codigo: 500,
+    descripcion: 'Error al conectarse a MongoDB',
+    detalle: MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+        at Connection.openUri (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\connection.js:695:11)
+        at C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\index.js:409:10
+        at C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
+        at new Promise (<anonymous>)
+        at promiseOrCallback (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
+        at Mongoose._promiseOrCallback (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\index.js:1262:10)
+        at Mongoose.connect (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\index.js:408:20)
+        at MongoDBClient.connect (file:///C:/Users/Sx_Ja/OneDrive/Escritorio/genloyal/server/src/classes/ClientDB.class.js:16:31)
+        at UsuarioDaoMongoDb.listarTodo (file:///C:/Users/Sx_Ja/OneDrive/Escritorio/genloyal/server/src/models/contenedor/contenedorMongo.js:33:33)
+        at home (file:///C:/Users/Sx_Ja/OneDrive/Escritorio/genloyal/server/src/controllers/user.controller.js:11:39)
+  }
+}
+[2023-01-06T10:54:15.340] [ERROR] default - NewError {
+  codigo: 500,
+  descripcion: 'Error al listarTodo()',
+  detalle: NewError {
+    codigo: 500,
+    descripcion: 'Error al conectarse a MongoDB',
+    detalle: MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+        at Connection.openUri (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\connection.js:695:11)
+        at C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\index.js:409:10
+        at C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
+        at new Promise (<anonymous>)
+        at promiseOrCallback (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
+        at Mongoose._promiseOrCallback (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\index.js:1262:10)
+        at Mongoose.connect (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\index.js:408:20)
+        at MongoDBClient.connect (file:///C:/Users/Sx_Ja/OneDrive/Escritorio/genloyal/server/src/classes/ClientDB.class.js:16:31)
+        at UsuarioDaoMongoDb.listarTodo (file:///C:/Users/Sx_Ja/OneDrive/Escritorio/genloyal/server/src/models/contenedor/contenedorMongo.js:33:33)
+        at home (file:///C:/Users/Sx_Ja/OneDrive/Escritorio/genloyal/server/src/controllers/user.controller.js:11:39)
+  }
+}
+[2023-01-06T10:58:33.047] [ERROR] default - NewError {
+  codigo: 500,
+  descripcion: 'Error al listarTodo()',
+  detalle: NewError {
+    codigo: 500,
+    descripcion: 'Error al conectarse a MongoDB',
+    detalle: MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+        at Connection.openUri (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\connection.js:695:11)
+        at C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\index.js:409:10
+        at C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
+        at new Promise (<anonymous>)
+        at promiseOrCallback (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
+        at Mongoose._promiseOrCallback (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\index.js:1262:10)
+        at Mongoose.connect (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\index.js:408:20)
+        at MongoDBClient.connect (file:///C:/Users/Sx_Ja/OneDrive/Escritorio/genloyal/server/src/classes/ClientDB.class.js:17:31)
+        at UsuarioDaoMongoDb.listarTodo (file:///C:/Users/Sx_Ja/OneDrive/Escritorio/genloyal/server/src/models/contenedor/contenedorMongo.js:32:33)
+        at home (file:///C:/Users/Sx_Ja/OneDrive/Escritorio/genloyal/server/src/controllers/user.controller.js:11:39)
+  }
+}
+[2023-01-06T10:59:48.416] [ERROR] default - NewError {
+  codigo: 500,
+  descripcion: 'Error al listarTodo()',
+  detalle: NewError {
+    codigo: 500,
+    descripcion: 'Error al conectarse a MongoDB',
+    detalle: MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+        at Connection.openUri (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\connection.js:695:11)
+        at C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\index.js:409:10
+        at C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
+        at new Promise (<anonymous>)
+        at promiseOrCallback (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
+        at Mongoose._promiseOrCallback (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\index.js:1262:10)
+        at Mongoose.connect (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\index.js:408:20)
+        at MongoDBClient.connect (file:///C:/Users/Sx_Ja/OneDrive/Escritorio/genloyal/server/src/classes/ClientDB.class.js:17:31)
+        at UsuarioDaoMongoDb.listarTodo (file:///C:/Users/Sx_Ja/OneDrive/Escritorio/genloyal/server/src/models/contenedor/contenedorMongo.js:32:33)
+        at home (file:///C:/Users/Sx_Ja/OneDrive/Escritorio/genloyal/server/src/controllers/user.controller.js:11:39)
+  }
+}
+[2023-01-06T11:01:59.918] [ERROR] default - NewError {
+  codigo: 500,
+  descripcion: 'Error al listarTodo()',
+  detalle: NewError {
+    codigo: 500,
+    descripcion: 'Error al conectarse a MongoDB',
+    detalle: MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+        at Connection.openUri (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\connection.js:695:11)
+        at C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\index.js:409:10
+        at C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
+        at new Promise (<anonymous>)
+        at promiseOrCallback (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
+        at Mongoose._promiseOrCallback (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\index.js:1262:10)
+        at Mongoose.connect (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\index.js:408:20)
+        at MongoDBClient.connect (file:///C:/Users/Sx_Ja/OneDrive/Escritorio/genloyal/server/src/classes/ClientDB.class.js:17:31)
+        at UsuarioDaoMongoDb.listarTodo (file:///C:/Users/Sx_Ja/OneDrive/Escritorio/genloyal/server/src/models/contenedor/contenedorMongo.js:32:33)
+        at home (file:///C:/Users/Sx_Ja/OneDrive/Escritorio/genloyal/server/src/controllers/user.controller.js:11:39)
+  }
+}
+[2023-01-06T11:12:10.877] [ERROR] default - NewError {
+  codigo: 500,
+  descripcion: 'Error al listarTodo()',
+  detalle: NewError {
+    codigo: 500,
+    descripcion: 'Error al conectarse a MongoDB',
+    detalle: MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+        at Connection.openUri (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\connection.js:695:11)
+        at C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\index.js:409:10
+        at C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
+        at new Promise (<anonymous>)
+        at promiseOrCallback (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
+        at Mongoose._promiseOrCallback (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\index.js:1262:10)
+        at Mongoose.connect (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\index.js:408:20)
+        at MongoDBClient.connect (file:///C:/Users/Sx_Ja/OneDrive/Escritorio/genloyal/server/src/classes/ClientDB.class.js:17:31)
+        at UsuarioDaoMongoDb.listarTodo (file:///C:/Users/Sx_Ja/OneDrive/Escritorio/genloyal/server/src/models/contenedor/contenedorMongo.js:32:33)
+        at home (file:///C:/Users/Sx_Ja/OneDrive/Escritorio/genloyal/server/src/controllers/user.controller.js:11:39)
+  }
+}
+[2023-01-06T11:15:19.462] [ERROR] default - NewError {
+  codigo: 500,
+  descripcion: 'Error al listarTodo()',
+  detalle: NewError {
+    codigo: 500,
+    descripcion: 'Error al conectarse a MongoDB',
+    detalle: MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+        at Connection.openUri (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\connection.js:695:11)
+        at C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\index.js:409:10
+        at C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
+        at new Promise (<anonymous>)
+        at promiseOrCallback (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
+        at Mongoose._promiseOrCallback (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\index.js:1262:10)
+        at Mongoose.connect (C:\Users\Sx_Ja\OneDrive\Escritorio\genloyal\node_modules\mongoose\lib\index.js:408:20)
+        at MongoDBClient.connect (file:///C:/Users/Sx_Ja/OneDrive/Escritorio/genloyal/server/src/classes/ClientDB.class.js:19:31)
+        at UsuarioDaoMongoDb.listarTodo (file:///C:/Users/Sx_Ja/OneDrive/Escritorio/genloyal/server/src/models/contenedor/contenedorMongo.js:31:33)
+        at home (file:///C:/Users/Sx_Ja/OneDrive/Escritorio/genloyal/server/src/controllers/user.controller.js:11:39)
+  }
+}
+[2023-01-07T18:16:49.479] [ERROR] default - ReferenceError: email is not defined
+    at file:///C:/Users/Sx_Ja/OneDrive/Escritorio/genloyal/server/src/controllers/user.controller.js:24:58
+    at Array.find (<anonymous>)
+    at register (file:///C:/Users/Sx_Ja/OneDrive/Escritorio/genloyal/server/src/controllers/user.controller.js:24:36)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-01-07T18:19:14.704] [WARN] default - Usuario ya se registro
+[2023-01-07T20:15:15.518] [WARN] default - Usuario ya se registro
+[2023-01-07T20:15:15.518] [ERROR] default - TypeError: req.status is not a function
+    at register (file:///C:/Users/Sx_Ja/OneDrive/Escritorio/genloyal/server/src/controllers/user.controller.js:27:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-01-07T20:36:26.947] [WARN] default - Usuario ya se registro
+[2023-01-07T20:41:17.076] [WARN] default - Usuario ya se registro
+[2023-01-07T20:50:43.025] [WARN] default - Usuario ya se registro
+[2023-01-07T20:51:13.654] [WARN] default - Usuario ya se registro
+[2023-01-07T21:40:59.490] [WARN] default - Usuario ya se registro
+[2023-01-07T21:48:56.753] [WARN] default - Usuario ya se registro
